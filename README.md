@@ -19,7 +19,11 @@ a great example of a pull request on the `Ruby` codebase.
 
 Let's go over a conceptual example. It's OK if this feels a bit confusing at
 first, you'll work through this countless times and eventually your brain
-and fingers will both grasp what's going on.
+and fingers will both grasp what's going on. Nevertheless, the URLs and paths
+might not work. You're not meant to follow them to test them. Rather, you're
+meant to visually identify the pattern in the naming. Additionally,
+`your-user-name` is a "variable" which you can imagine as being filled in with
+something like `joe-flatiron`.
 
 ### Pull Request to a Source Repository
 
