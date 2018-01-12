@@ -68,22 +68,27 @@ jQuery).
 
 ### Step 1
 
-Navigate to your forks page, `https://github.com/your-user-name/awesome-lab`
-and click on pull requests in the top right corner.
-
-![](http://readme-pics.s3.amazonaws.com/gitpulls/1.jpg)
+Navigate to your fork's page.
 
 ### Step 2
 
-Click on the green New Pull Request button.
+Click on the "New Pull Request" button.
+
 ![](http://readme-pics.s3.amazonaws.com/gitpulls/2.jpg)
 
 ### Step 3
 
-Here you can choose the base fork, which will be `their-user-name/awesome-lab`.
-Then choose the head fork, which will be `your-user-name/awesome-lab`
+Here you can choose the "base fork," which will be `their-user-name/awesome-lab`.
+The "base" will typically be `master`. You can imagine that if they were doing
+some experimental work they might have a branch called `experimental`. If that
+were the case your *base* would be `experimental`. It's most typical, however,
+to use `master`. On the right side of the equation the "head fork" will be
+**your** repository! The "compare" will be the branch on which you committed
+your work (typically `master`, but, as before, you might be doing your work on
+some other _local_ branch, in which this might need to change).
 
-Now click Create pull request.
+Now click "Create pull request."
+
 ![](http://readme-pics.s3.amazonaws.com/gitpulls/4.jpg)
 
 ### Add Commits To An Existing Pull Request
@@ -91,9 +96,9 @@ Now click Create pull request.
 Let's say you make a pull request from
 `https://github.com/your-user-name/awesome-lab` to
 `https://github.com/learn-co-students/awesome-lab`. Then you notice you made a
-typo in your code. All you have to do is fix the typo, commit it and push up
-the changes to your branch. As long as the pull request already exists, the
-commits will be added automatically.
+typo in your code. All you have to do is fix the typo on your local machine,
+commit it and push up the changes to your branch. As long as the pull request
+already exists and hasn't been merged, the commits will be added automatically.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-pull-request-basics' title='Github Pull Request Basics'>Github Pull Request Basics</a> on Learn.co and start learning to code for free.</p>
 
